@@ -1,0 +1,46 @@
+html, body {
+  background-color: rgb(216, 191, 216);
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 24px;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin: 0 0 0.25em 0;
+}
+
+p {
+  margin: 0.25em 0;
+}
+
+section {
+  margin-bottom: 1.5em;
+}
+
+hr {
+  margin: 1em 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-bottom: 0.75em;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 0.25em;
+}
+
+ul {
+  margin: 0.25em 0 0.25em 1.25em;
+  padding: 0;
+}
