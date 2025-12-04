@@ -10,41 +10,41 @@
 body {
   margin: 0;
   padding: 0;
-  background: #111;           /* dark outer background */
   line-height: 1.6;
+  background: #e5e4cb;   /* cornsilk soft yellow */
 }
+
 
 /* Main résumé area (the card) */
 main {
-  position: relative;         /* nav will position relative to this */
   max-width: 900px;
-  margin: 40px auto;
+  margin: 25px auto 40px;      /* <-- THIS 32px is the gap below nav */
   padding: 40px 40px 48px;
-  background: #2b1824;        /* plum résumé background */
+  background: #2b1824;
   color: #f3e6d8;
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 7px 7px rgba(209, 25, 25, 0.5);
 }
 
-/* Navigation link inside résumé card */
+/* Nav bar (aligned with card, above it) */
 .site-nav {
-  position: absolute;         /* relative to <main> */
-  top: 10px;                  /* distance from top edge of card */
-  left: 24px;                 /* align with main's left padding */
+  max-width: 900px;      /* same width as the card */
+  margin: 16px auto 0;   /* center it; 16px from top of page */
 }
 
 .site-nav a {
   color: #f3e6d8;
   text-decoration: none;
   font-weight: bold;
-  background: rgba(0, 0, 0, 0.35);
+  background: #111;
   padding: 6px 12px;
   border-radius: 6px;
 }
 
 .site-nav a:hover {
-  background: rgba(0, 0, 0, 0.55);
+  background: #222;
 }
+
 
 /* Email link style */
 .email-link {
