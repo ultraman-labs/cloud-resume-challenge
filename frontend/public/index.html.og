@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1">
+    <title>Tony Quintanilla's Résumé (Tech-Focused)</title>
+    <link rel="stylesheet" href="/assets/stylesheets/style.css">
+  </head>
+ 
+  <body>
+    <main>
+       <nav>
+        <a href="/">Home</a>
+      </nav>
+      
+      <header>
+        <h1>Tony Quintanilla</h1>
+        <p>
+          Los Angeles, CA 
+          &bull;
+        <style>
+            a.email-link {
+            text-decoration: none;
+            color: inherit;
+        }
+            a.email-link:hover {
+            color: #003366; /* dark blue */
+        }
+        </style>
+        <a href="mailto:t.quintanilla@cloud-axis.com" class="email-link">
+        t.quintanilla@cloud-axis.com
+        </a>
+        &bull;
+        </p>   
+      </header>
+      <article>
+        <hr>
+        <section class="Experience">
+          <h2>Experience</h2>
+          <div class="items">
+            <div class="item">
+              <div class="info">
+                <h3>Vector USA &mdash; Network Engineer</h3>
+                <p>CCNP - Cisco Certified Network Professional</p>
+              </div><!-- info -->
+              <div class="details">  
+                <div class="location">Torrance</div>
+                <div class="duration">2019-2021</div>
+              </div><!-- details -->
+              <ul>
+                <li>Engieering team leader</li>
+                <li>Configured Router and L3 switches</li>
+              </ul>
+            </div><!-- item --> 
+          </div><!-- items -->
+        </section> 
+        <hr> 
+
+        <section class="Core Skills">
+          <h2>Core Skills</h2>
+          <div class="items">
+            <div class="item">
+              <div class="info">
+                <h3>Network Architecting</h3>
+                <p>Troubleshooting configs</p>
+              </div><!-- info -->
+              <div class="details">  
+                <div class="skills">Schematic Planning</div>
+                <div class="duration">2019-2021</div>
+              </div><!-- details -->
+              <ul>
+                <li>Engieering team leader</li>
+                <li>Configured Router and L3 switches</li>
+              </ul>
+            </div><!-- item -->
+          </div><!-- items -->  
+          <hr>
+        </section>
+        <section class="Education">
+          <h2>Education</h2>
+          <div class="items">
+            <div class="item">
+              <div class="info">
+                <h3>CSULA</h3>
+                <p>Mathematics Computer Science</p>
+              </div><!-- info -->
+              <div class="details">  
+                <div class="location">Los Angeles</div>
+                <div class="duration">2004</div>
+              </div><!-- details -->
+              <ul>
+                <li>Aplliead Mathematics</li>
+                <li>AI Modeling</li>
+              </ul>
+            </div><!-- item -->
+          </div><!-- items --> 
+          <hr>
+        </section>
+        <section>
+            <h2>Skills &amp; Interests <em>(Optional)</em></h2>
+            <p><strong>Technical:</strong> Additional tools, languages, or frameworks not listed above.</p>
+            <p><strong>Interests:</strong> Activities that show personality but remain professional (Qi-Gong, basketball, sunrise photography, classical guitar, sci-fi, etc.).</p>
+         </section>
+      </article>
+    </main>
+
+  </body>
+</html>>

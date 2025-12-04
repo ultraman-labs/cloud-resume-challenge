@@ -3,40 +3,68 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Make the page fill the viewport */
-html, body {
-  height: 100%;
-  width:  100%;
-  min-height: 100%;
+/* Page background */
+body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #111;           /* dark outer background */
   line-height: 1.6;
 }
 
-/* Main résumé area */
+/* Main résumé area (the card) */
 main {
-
-  max-width: 900px;          /* constrain content width */
-  margin: 40px auto;         /* center horizontally with top/bottom margin */
-  padding: 0 24px 40px;      /* side padding + bottom breathing room */
-
-  /* If you want the card look, uncomment this block:
-  background: #1f111c;       /* dark plum card background */
+  position: relative;         /* nav will position relative to this */
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px 40px 48px;
+  background: #2b1824;        /* plum résumé background */
+  color: #f3e6d8;
   border-radius: 8px;
-  background-color: rgb(216, 191, 216);  /* full-page background */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-  */
 }
 
-/* Center header at top of résumé */
+/* Navigation link inside résumé card */
+.site-nav {
+  position: absolute;         /* relative to <main> */
+  top: 10px;                  /* distance from top edge of card */
+  left: 24px;                 /* align with main's left padding */
+}
+
+.site-nav a {
+  color: #f3e6d8;
+  text-decoration: none;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.site-nav a:hover {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* Email link style */
+.email-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.email-link:hover {
+  color: #ffd27f;             /* soft highlight on hover */
+}
+
+/* Center header text */
 header {
   text-align: center;
 }
 
-h1, h2, h3 {
+/* Typography spacing */
+h1,
+h2,
+h3 {
   margin: 0 0 0.25em 0;
 }
 
@@ -48,12 +76,14 @@ section {
   margin-bottom: 1.5em;
 }
 
+/* Horizontal rule styling */
 hr {
   margin: 1.5em 0;
   border: none;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #624051;
 }
 
+/* Misc classes */
 .subtitle {
   font-style: italic;
   margin-bottom: 0.75em;

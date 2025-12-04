@@ -1,0 +1,98 @@
+/* Global reset + layout consistency */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Make the page fill the viewport */
+html, body {
+  height: 100%;
+  width:  100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+/* Simple top-left navigation bar */
+nav {
+  position: fixed;      /* keeps it in the top-left even when scrolling */
+  top: 20px;            /* distance from top */
+  left: 20px;           /* distance from left */
+  z-index: 1000;        /* stays above other elements */
+}
+
+nav a {
+  color: white;         /* choose a color that matches your theme */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background: rgba(0,0,0,0.25); /* optional: soft background for contrast */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background: rgba(0,0,0,0.4);
+}
+
+
+/* Main résumé area */
+main {
+
+  max-width: 900px;          /* constrain content width */
+  margin: 40px auto;         /* center horizontally with top/bottom margin */
+  padding: 0 24px 40px;      /* side padding + bottom breathing room */
+  
+
+  /* If you want the card look, uncomment this block:
+  background: #1f111c;       /* dark plum card background */
+  border-radius: 8px;
+  background-color: rgb(216, 191, 216);  /* full-page background */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  */
+}
+
+/* Center header at top of résumé */
+header {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0 0 0.25em 0;
+}
+
+p {
+  margin: 0.25em 0;
+}
+
+section {
+  margin-bottom: 1.5em;
+}
+
+hr {
+  margin: 1.5em 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-bottom: 0.75em;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 0.25em;
+}
+
+ul {
+  margin: 0.25em 0 0.25em 1.25em;
+  padding: 0;
+}
