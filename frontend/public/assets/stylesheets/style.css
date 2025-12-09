@@ -12,7 +12,8 @@ body {
   padding: 0;
   line-height: 1.6;
   /* background: #e5e4cb;   /* cornsilk soft yellow */
-  background: url('/assets/images/textured-mulberry-paper.jpg');
+  background:  url('/assets/images/textured-mulberry-paper.webp');
+  background-size: 40%;
 }
 
 
@@ -21,8 +22,8 @@ main {
   max-width: 900px;
   margin: 25px auto 40px;      /* <-- THIS 32px is the gap below nav */
   padding: 40px 40px 48px;
-  background: #2b1824;
-  color: #f3e6d8;
+  background: #E5E8EB;
+  color: #040403;
   border-radius: 8px;
   box-shadow: 0px 4px 7px 7px rgba(209, 25, 25, 0.5);
 }
